@@ -1,39 +1,11 @@
-# def avg():
-#     a=int ( input("enter a "))
-#     b=int ( input("enter b "))
-#     c=int ( input("enter c "))
-#     average=(a+b+c)/3
-#     print(average)
-
-# avg()
-
-# def goodday():
-#     a=int(input("enter value of a"))
-#     b=int(input("enter value of b"))
-#     print(a+b)   
-
-# goodday()
-# goodday()
-# print("thank you for using fuctions")
+# f =open("file.txt")
+# data=f.read()
+# print(data)
+# f.close()
 
 
-# def goodday(name):
-#     print("soory you are fail," + name)
-    
-# goodday("hajjan") 
+st="hello this is good "
+f=open("my file.txt", "w")
 
-# goodday("yaqoob")
-# goodday("janii")
-
-
-
-
-def factorial():
-    if(n==1 or n==0):
-        return 1
-    
-    return n*factorial(n-1)
-n=int(input("enter a number:"))
-
-print(f"the factorial is :{factorial (n)}")
-
+f.write(st)
+f.close()
