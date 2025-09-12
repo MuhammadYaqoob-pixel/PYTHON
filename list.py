@@ -1,54 +1,33 @@
-# list=["apple","banana", 5, 6,7,"orange"]
+my_list=[33,44, "herry", 3.12]
+print(my_list)
 
-# # print(list)
-
-# #print(type(list))
-
-# print(list[0])
-# print(list[1])
-# print(list[2])
-# print(list[3])
-
-# print(list[4])
-
-fruits=["apple", "orange", "pineapple", 5,6,7]
-# fruits[0]=3
-# print(fruits)
-
-# fruits[3]="seaborn"
-# print(fruits)
+# print(type(my_list))
 
 
-# fruits.append("grapes")
+# my_list[0]=55
 
-# print(fruits)
+# print(my_list)
 
-# fruits.insert(1, "apple")
+# print(my_list[0])
 
-# print(fruits)
+# # how to add items in list
 
-# fruits.remove("apple")
-# print(fruits)
 
-# fruits.pop()
-# print(fruits)
+# # # add in the end
 
-# fruits.clear()
-# print(fruits)
+# # my_list.append(50)
+# # print(my_list)
 
-# fruits.extend(["apple", "orange", "pineapple", 5,67,8])
-# print(fruits)
+# # # add in first
+# # my_list.insert(1,30)
+# # print(my_list)
 
-# LIST SLICING
-# list=[1,2,3,4,5,6,7,8,9,0]
-# print(list[0:3])
+# # how to remove
+# my_list.pop(3)
 
-# print(list[3:6])
 
-# print(list[:8])
+# print(my_list)
+# my_list.remove(33)
 
-numbers = [10, 5, 8]
-print(len(numbers))   # 3
-print(max(numbers))   # 10
-print(min(numbers))   # 5
-print(sum(numbers))   # 23
+# print(my_list)
+print(len(my_list))
